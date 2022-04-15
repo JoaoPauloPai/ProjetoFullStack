@@ -1,0 +1,12 @@
+Módulo 1 ok
+Módulo 2
+Formataçao - ok
+Negrito   - ok
+Parágrafos - ok
+Itálico - ok
+Marcação - ok
+Small - ok
+Removido   - ok
+Inserido - ok
+Subscript  - ok
+SuperScript  - ok
