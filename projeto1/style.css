@@ -1,46 +1,113 @@
+/*Style Página Index*/
+.principal1 {
+    background-color: chocolate;
+}
+
+
+/*Style Página medidasCss*/
+#base {
+    background-color: brown;
+    padding: 10px;
+}
+
+#container {
+    background-color: blue;
+    color: azure;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-block-end: 5px;
+}
+
+#container2 {
+    background-color: darkgreen;
+    color: azure;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+}
+
+#cm {
+    background-color: darkgray;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm {
+    background-color: black;
+    width: 1mm;
+    height: 1mm;
+}
+
+#in {
+    background-color: red;
+    width: 1in;
+    height: 1in;
+}
+
+#px {
+    background-color: darkorange;
+    width: 10px;
+    height: 10px;
+}
+
+#pt {
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc {
+    background-color: currentColor;
+    width: 10pc;
+    height: 10pc;
+}
+
 /*Style Página Formatação*/
 
-body{
+body {
     background-color: bisque;
 }
 
-.divi1{
+.divi1 {
     background-color: aqua;
     color: black;
 }
 
-.div2{
+.div2 {
     background-color: blueviolet;
     color: blue;
 }
 
-.div3{
+.div3 {
     background-color: brown;
 }
 
-.div4{
+.div4 {
     background-color: black;
     color: aliceblue;
 }
 
-.imag1{
+.imag1 {
     background-color: darkkhaki;
 }
 
 /*Style Página Desafio*/
-body{
-   /* background-image: url(./imagens/logo.jpg);*/
-   background-color: antiquewhite;
+body {
+    /* background-image: url(./imagens/logo.jpg);*/
+    background-color: antiquewhite;
 }
-.principal{
+
+.principal {
     background-color: aquamarine;
 
 }
-#dadosPessoais{
+
+#dadosPessoais {
     color: blue;
 }
 
-.informacoes{
+.informacoes {
     color: brown;
-    
+
 }
