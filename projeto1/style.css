@@ -1,3 +1,46 @@
-p{
+/*Style Página Formatação*/
+
+body{
+    background-color: bisque;
+}
+
+.divi1{
+    background-color: aqua;
+    color: black;
+}
+
+.div2{
+    background-color: blueviolet;
     color: blue;
+}
+
+.div3{
+    background-color: brown;
+}
+
+.div4{
+    background-color: black;
+    color: aliceblue;
+}
+
+.imag1{
+    background-color: darkkhaki;
+}
+
+/*Style Página Desafio*/
+body{
+   /* background-image: url(./imagens/logo.jpg);*/
+   background-color: antiquewhite;
+}
+.principal{
+    background-color: aquamarine;
+
+}
+#dadosPessoais{
+    color: blue;
+}
+
+.informacoes{
+    color: brown;
+    
 }
