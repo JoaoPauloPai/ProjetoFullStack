@@ -14,3 +14,25 @@ Imagens     - ok
 quebra de linha - ok
 Lista não ordenada - ok
 Tabelas       - ok
+
+Modulo CSS 
+Introdução - ok
+CSS Inline - ok
+CSS Interno - ok
+CSS Externo - ok
+Classes e Ids - ok
+Cores - ok
+Backfround - ok
+Div - ok
+Ferramentas do Crome  - ok
+Unidades de Medidas - ok
+Margin e padding - ok
+Border - ok
+Border Box - ok
+Border Model - ok
+Ajuste de Texto 
+Fontes
+Usando Fontes
+Estilo de link
+Lista
+Desafio CSS
