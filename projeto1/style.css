@@ -1,13 +1,59 @@
 /*Style Página Index*/
+body{
+    background-color: lightsteelblue;
+}
+.formatacao{
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 0.1px ;
+}
 .principal1 {
     background-color: chocolate;
+    text-align: center;
+    border-radius: 5px;
+}
+.aulas{
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: white;
+
+}
+.desafios{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: red;
+}
+.desafios:hover{
+
+    background: white;
+    color: red;
+    border: 2px solid red;
 }
 
+.aulas:hover{
+    background: red;
+    color: white;
+    border: 2px solid white;
+}
 
 /*Style Página medidasCss*/
 #base {
     background-color: brown;
     padding: 10px;
+}
+.projeto{
+    text-align: center;
 }
 
 #container {
@@ -64,9 +110,8 @@
 }
 
 /*Style Página Formatação*/
-
-body {
-    background-color: bisque;
+.indexPg1{
+    background-color: cornflowerblue;
 }
 
 .divi1 {
@@ -92,12 +137,8 @@ body {
     background-color: darkkhaki;
 }
 
-/*Style Página Desafio*/
-body {
-    /* background-image: url(./imagens/logo.jpg);*/
-    background-color: antiquewhite;
-}
 
+/*Style Página Desafio*/
 .principal {
     background-color: aquamarine;
 
@@ -110,4 +151,30 @@ body {
 .informacoes {
     color: brown;
 
+}
+
+/*Style Página BorderBox*/
+.container {
+    background-color: coral;
+    padding: 5px;
+    border: 5px solid blue;
+}
+
+.content {
+    background-color: aqua;
+    border: 5px solid green;
+    padding: 5px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    border: 10px solid blue;
+
+    background-color: yellow;
+}
+
+#meuParagrafo {
+    color: darkmagenta;
+    text-align: center;
 }
