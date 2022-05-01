@@ -1,0 +1,53 @@
+/*Style Página Index*/
+body{
+    background-color: lightsteelblue;
+}
+.formatacao{
+    background-color: lightslategray;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 0.1px ;
+}
+.principal1 {
+
+    
+}
+.aulas{
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: white;
+
+}
+.desafios{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: red;
+}
+.desafios:hover{
+
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+
+.aulas:hover{
+    background: red;
+    color: white;
+    border: 2px solid white;
+}
+.projeto{
+    text-align: center;
+}
+.divProjeto1{
+    width: 33%;
+}

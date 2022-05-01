@@ -1,51 +1,3 @@
-/*Style Página Index*/
-body{
-    background-color: lightsteelblue;
-}
-.formatacao{
-    background-color: lightslategray;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-top: 0.1px ;
-}
-.principal1 {
-    background-color: chocolate;
-    text-align: center;
-    border-radius: 5px;
-}
-.aulas{
-    text-decoration: none;
-    border: 2px solid red;
-    color: red;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    background: white;
-
-}
-.desafios{
-    text-decoration: none;
-    border: 2px solid white;
-    color: white;
-    padding: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    background: red;
-}
-.desafios:hover{
-
-    background: white;
-    color: red;
-    border: 2px solid red;
-}
-
-.aulas:hover{
-    background: red;
-    color: white;
-    border: 2px solid white;
-}
 .index{
     
     text-decoration: none;
@@ -62,15 +14,45 @@ body{
     color: red;
     border: 2px solid red;
 }
+body{
+    background-color: lightsteelblue;
 }
+/*Style Página desafio1*/
+.cartao{
+    border-radius: 5px;
+    text-align: center;
+    color: blue;
+    background-color: antiquewhite;
+}
+.divPrincipal{
+background: url(./imagens/backgorund.png) no-repeat;  
+border-radius: 5px; 
+box-sizing: border-box;
+width: 500px;
+height: 300px;
+background-size: cover;
+margin: auto;
+padding: 1px 20px;
+margin-top: 5%;
+}
+.tgaA{
+    text-decoration: none;
+    color: black;
+}
+.isntagram{
+    list-style-image: url(./imagens/Insta.png);
+}
+.twiter{
+    list-style-image: url(./imagens/Twitter.png);
+}
+    .youtube{
+        list-style-image: url(./imagens/Youtube.png);
+    }
 
 /*Style Página medidasCss*/
 #base {
     background-color: brown;
     padding: 10px;
-}
-.projeto{
-    text-align: center;
 }
 
 #container {
