@@ -30,9 +30,10 @@ Margin e padding - ok
 Border - ok
 Border Box - ok
 Border Model - ok
-Ajuste de Texto 
-Fontes
-Usando Fontes
-Estilo de link
-Lista
-Desafio CSS
+Ajuste de Texto  - ok
+Fontes - ok
+Usando Fontes - ok
+Estilo de link - ok
+Lista - ok
+Desafio CSS - ok
+Primeiro projeto concluído
