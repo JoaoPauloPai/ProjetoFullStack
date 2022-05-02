@@ -1,1 +1,10 @@
 projeto CSS Intemediario módulo 4
+Display
+Overflow
+Alinhamento Horizontal
+Position
+Float
+Alinhamento vertical
+Viewport
+Responsividade
+Media Queres

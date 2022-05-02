@@ -2,15 +2,27 @@
 body{
     background-color: lightsteelblue;
 }
+.pPrincipal{
+    color: blue;
+    text-align: center;
+    
+}
+.pProjeto1{
+    text-align: center;
+}
 .formatacao{
     background-color: lightslategray;
     border-radius: 5px;
     padding-left: 10px;
     padding-top: 0.1px ;
 }
-.principal1 {
-
-    
+.divPrincipal{
+    border-radius: 1%;
+    background-color: blueviolet;
+    padding-top: 1%;
+    padding: 1%;
+    background-size: auto;
+   
 }
 .aulas{
     text-decoration: none;
@@ -21,7 +33,7 @@ body{
     padding-bottom: 5px;
     border-radius: 5px;
     background: white;
-
+    background-size: auto;
 }
 .desafios{
     text-decoration: none;
@@ -50,4 +62,15 @@ body{
 }
 .divProjeto1{
     width: 33%;
+    background-color: lightskyblue;
+    background-size: auto;
+    border-radius: 5px;
+    width: 33%;  
+}
+.divProjeto2{
+    width: 33%;
+    background-color: yellowgreen;
+    background-size: auto;
+    border-radius: 5px;
+    width: 33%;  
 }
