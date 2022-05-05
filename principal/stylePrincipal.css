@@ -51,7 +51,6 @@ body{
     color: red;
     border: 2px solid red;
 }
-
 .aulas:hover{
     background: red;
     color: white;
@@ -73,4 +72,9 @@ body{
     background-size: auto;
     border-radius: 5px;
     width: 33%;  
+}
+.menu1{
+    margin-top: 10px;
+    align-items: center;
+    
 }

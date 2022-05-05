@@ -1,0 +1,19 @@
+body{
+    background-color: whitesmoke;
+}
+
+.bPGInicial{
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: red;
+}
+.bPGInicial:hover{
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
