@@ -1,5 +1,5 @@
-.index{
-    
+.index {
+
     text-decoration: none;
     border: 2px solid white;
     color: white;
@@ -9,45 +9,53 @@
     border-radius: 5px;
     background: red;
 }
-.index:hover{
+
+.index:hover {
     background: white;
     color: red;
     border: 2px solid red;
 }
-body{
+
+body {
     background-color: lightsteelblue;
 }
+
 /*Style Página desafio1*/
-.cartao{
+.cartao {
     border-radius: 5px;
     text-align: center;
     color: blue;
     background-color: antiquewhite;
 }
-.divPrincipal{
-background: url(./imagens/backgorund.png) no-repeat;  
-border-radius: 5px; 
-box-sizing: border-box;
-width: 500px;
-height: 300px;
-background-size: cover;
-margin: auto;
-padding: 1px 20px;
-margin-top: 5%;
+
+.divPrincipal {
+    background: url(../../imagens/backgorund.png) no-repeat;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+    margin: auto;
+    padding: 1px 20px;
+    margin-top: 5%;
 }
-.tgaA{
+
+.tgaA {
     text-decoration: none;
     color: black;
 }
-.isntagram{
-    list-style-image: url(./imagens/Insta.png);
+
+.isntagram {
+    list-style-image: url(../../imagens/Insta.png);
 }
-.twiter{
-    list-style-image: url(./imagens/Twitter.png);
+
+.twiter {
+    list-style-image: url(../../imagens/Twitter.png);
 }
-    .youtube{
-        list-style-image: url(./imagens/Youtube.png);
-    }
+
+.youtube {
+    list-style-image: url(../../imagens/Youtube.png);
+}
 
 /*Style Página medidasCss*/
 #base {
@@ -109,7 +117,7 @@ margin-top: 5%;
 }
 
 /*Style Página Formatação*/
-.indexPg1{
+.indexPg1 {
     background-color: cornflowerblue;
 }
 

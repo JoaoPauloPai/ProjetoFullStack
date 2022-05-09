@@ -13,6 +13,7 @@ body{
 .formatacao{
     background-color: lightslategray;
     border-radius: 5px;
+    border: 1px solid black;
     padding-left: 10px;
     padding-top: 0.1px ;
 }
@@ -60,6 +61,9 @@ body{
     text-align: center;
 }
 .divProjeto1{
+    position: relative;
+    margin: auto;
+    border: 1px solid black;
     width: 33%;
     background-color: lightskyblue;
     background-size: auto;
@@ -67,11 +71,15 @@ body{
     width: 33%;  
 }
 .divProjeto2{
+    border: 1px solid black;
+    margin-top: 5px;
+    position: relative;
+    margin: auto;
     width: 33%;
     background-color: yellowgreen;
     background-size: auto;
     border-radius: 5px;
-    width: 33%;  
+ 
 }
 .menu1{
     margin-top: 10px;
