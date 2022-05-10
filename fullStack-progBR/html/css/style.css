@@ -1,0 +1,13 @@
+body{
+    background-color: dimgrey;
+}
+
+#btEnviar{
+    background-color: brown;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+#frEmail{
+    background-color: azure;
+    border-radius: 10%;
+}
