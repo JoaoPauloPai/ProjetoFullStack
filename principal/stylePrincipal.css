@@ -36,6 +36,25 @@ body{
     background: white;
     background-size: auto;
 }
+.proj2{
+    
+    margin: auto;
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: white;
+    background-size: auto;
+}
+.proj2:hover{
+    background: red;
+    color: white;
+    border: 2px solid white;
+}
+    
 .desafios{
     text-decoration: none;
     border: 2px solid white;
@@ -81,6 +100,7 @@ body{
     border-radius: 5px;
  
 }
+
 .menu1{
     margin-top: 10px;
     align-items: center;

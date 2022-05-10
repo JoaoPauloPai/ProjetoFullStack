@@ -2,7 +2,7 @@
 
 Curso Aborda do básico ao avançado em HTML, CSS e JS.
 
-Projeto é dividido em projetos menores, tem o prjeto principal com uma página html, todos os botões 
-chamando os demais projetos.
+Projeto é dividido em projetos menores, uma página principal chamando todos os outros projetos.
+A intenção é organizar todos os projetos em um mesmo, dividindo por pastas.
 
 
