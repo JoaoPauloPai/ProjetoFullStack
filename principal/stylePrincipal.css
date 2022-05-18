@@ -25,6 +25,11 @@ body{
     background-size: auto;
    
 }
+.bloc{
+    display: inline-block;
+    border-radius: 5px;
+    border:1px solid red;
+}
 .aulas{
     text-decoration: none;
     border: 2px solid red;

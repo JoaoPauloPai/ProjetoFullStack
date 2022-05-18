@@ -1,0 +1,51 @@
+p::first-line{
+    color: red;
+
+}
+P::first-letter{
+    font-size: 5rem;
+}
+h1::first-letter{
+    color: blue;
+    font-size: 5rem;
+}
+
+.index {
+
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: red;
+}
+
+.index:hover {
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
+li{
+    list-style: none;
+}
+/*
+li::before{
+    content: "A ";
+    color: brown;
+}*/
+li::before{
+    content: " ";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../fullStack-progBR/imagens/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+p::selection{
+    background-color: green;
+    color: brown;
+}
