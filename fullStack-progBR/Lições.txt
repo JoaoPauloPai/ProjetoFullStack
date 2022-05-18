@@ -1,5 +1,12 @@
 
 
+Funcao Cal Classes
+Pseudo Classes
+Pseudo Elemento - ok
+Vamos trabalhar com CSS Avancado
+
+Dei Incicio ao módulo II do projeto
+18/05/22
 
 Ptojeto irá ter modificações 
 ---------------------------
