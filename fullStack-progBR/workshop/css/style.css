@@ -20,13 +20,19 @@ header{
     font-size: 26px;
 }
 section{
-    color: white;
+    padding: 20px;  
     background-image: url(../image/people.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
-.shtexto{
-    display: inline-block;
-width: 50px;
-height: 70px;
+.formcontainer{
+max-width: 230px;
+background-color: #ffffffbb;
+padding: 20px;
+float: right;
+    }
+    h2{
+        font-size: 16px;
     }
 
 .mb{
@@ -46,11 +52,11 @@ font-weight: bold;
 }
 select{
     -moz-appearance: none;
-    webekit-appearance:none;
+    -webkit-appearance:none;
     appearance: none;
     background-image: url(../image/arrow.jpg);
     background-repeat: no-repeat;
-    background-position: calc(100% -10px)center;
+    background-position: calc(100% - 10px) center;
 }
 footer{
     background-color: #202121;
