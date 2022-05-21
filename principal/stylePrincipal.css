@@ -25,8 +25,21 @@ body{
     background-size: auto;
    
 }
+.proj2{
+    
+    margin: auto;
+    text-decoration: none;
+    border: 2px solid red;
+    color: red;
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: white;
+    background-size: auto;
+}
 .bloc{
-
+  
     border-radius: 5px;
     border:1px solid red;
 }
@@ -41,19 +54,7 @@ body{
     background: white;
     background-size: auto;
 }
-.proj2{
-    
-    margin: auto;
-    text-decoration: none;
-    border: 2px solid red;
-    color: red;
-    padding: 50px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 5px;
-    background: white;
-    background-size: auto;
-}
+
 .proj2:hover{
     background: red;
     color: white;
@@ -85,8 +86,10 @@ body{
     text-align: center;
 }
 .divProjeto1{
-    position: relative;
-    margin: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
     border: 1px solid black;
     width: 33%;
     background-color: lightskyblue;
@@ -95,14 +98,16 @@ body{
     width: 33%;  
 }
 .divProjeto2{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
     border: 1px solid black;
-    margin-top: 5px;
-    position: relative;
-    margin: auto;
     width: 33%;
-    background-color: yellowgreen;
+    background-color: lightskyblue;
     background-size: auto;
     border-radius: 5px;
+    width: 33%;  
  
 }
 
