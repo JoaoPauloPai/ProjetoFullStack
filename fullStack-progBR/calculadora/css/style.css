@@ -27,3 +27,64 @@ body{
 #operations{
     text-align: right;
 }
+#previus-operation,
+#corrent-oprations {
+    overflow-wrap: break-word;
+    min-height: 1.6em;
+    padding: .2em;
+}
+
+#previus-operation{
+    color: #777;
+}
+#corrent-oprations{
+    font-size: 3em;
+    font-weight: 700;
+}
+#botons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+#botons-container button{
+     border: 1px solid transparent;
+     border-radius: 0;
+     height: 4em;
+     font-size: 1.2em;
+     background-color: #dbdbdb;
+     cursor: pointer;
+}
+#botons-container .number{
+    background-color: #f3f3f3;
+}
+#botons-container button:hover{
+    background-color: #bababa;
+    border-color: #999;
+}
+#botons-container #equal-btn{
+    grid-column: span 2;
+    background-color: #75a5cb;
+
+}
+#botons-container #equal-btn:hover{
+    background-color: #3a91d8;
+
+}
+
+
+.index {
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    background: red;
+}
+
+.index:hover {
+    background: white;
+    color: red;
+    border: 2px solid red;
+}
