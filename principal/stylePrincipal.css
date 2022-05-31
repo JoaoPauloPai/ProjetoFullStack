@@ -22,7 +22,6 @@ body{
     background-color: blueviolet;
     padding-top: 1%;
     padding: 1%;
-    background-size: auto;
    
 }
 .proj2{
@@ -44,6 +43,7 @@ body{
     border:1px solid red;
 }
 .aulas{
+    margin-left: 10px;
     text-decoration: none;
     border: 2px solid red;
     color: red;
@@ -62,6 +62,7 @@ body{
 }
     
 .desafios{
+    margin-left: 10px;
     text-decoration: none;
     border: 2px solid white;
     color: white;
@@ -86,28 +87,30 @@ body{
     text-align: center;
 }
 .divProjeto1{
+    display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 20px;
     border: 1px solid black;
-    width: 33%;
+    width: 45%;
+    height: 200px;
     background-color: lightskyblue;
-    background-size: auto;
     border-radius: 5px;
-    width: 33%;  
+ 
 }
 .divProjeto2{
+    display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 20px;
     border: 1px solid black;
-    width: 33%;
+    width: 45%;
+    height:200px;
     background-color: lightskyblue;
-    background-size: auto;
     border-radius: 5px;
-    width: 33%;  
+
  
 }
 
@@ -115,4 +118,7 @@ body{
     margin-top: 10px;
     align-items: center;
     
+}
+.btn-2{
+    margin-top: 20px;
 }
