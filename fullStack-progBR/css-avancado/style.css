@@ -1,3 +1,8 @@
+footer{
+    background-color: dimgray;
+    height: 150px;
+    margin: 10px;
+}
 p::first-line{
     color: red;
 
@@ -98,4 +103,21 @@ body{
     background-color: darkgoldenrod;
     margin: auto;
    
+}
+
+/*Página transformação*/
+ #image{
+    width: 350px;
+}
+.div2{
+    margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+    width: 150px;
+    height: 150px;
+
+}
+.dvBtn{
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
