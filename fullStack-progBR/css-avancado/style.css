@@ -1,16 +1,21 @@
-footer{
+
+
+footer {
     background-color: dimgray;
     height: 150px;
     margin: 10px;
 }
-p::first-line{
+
+p::first-line {
     color: red;
 
 }
-P::first-letter{
+
+P::first-letter {
     font-size: 5rem;
 }
-h1::first-letter{
+
+h1::first-letter {
     color: blue;
     font-size: 5rem;
 }
@@ -32,15 +37,17 @@ h1::first-letter{
     color: red;
     border: 2px solid red;
 }
-li{
+
+li {
     list-style: none;
 }
+
 /*
 li::before{
     content: "A ";
     color: brown;
 }*/
-li::before{
+li::before {
     content: " ";
     display: inline-block;
     width: 30px;
@@ -50,74 +57,139 @@ li::before{
     background-position: center;
     background-size: cover;
 }
-p::selection{
+
+p::selection {
     background-color: green;
     color: brown;
 }
 
 /*Página Seletores*/
-p{
+p {
     background-color: green;
 }
 
-div{
+div {
     background-color: brown;
 }
+
 /*
 *{
     margin: 0;
 }*/
 /*Página Funçao Calc*/
-body{
+body {
     margin: 0;
     padding: 0;
-    background-color:cyan;
+    background-color: cyan;
 }
-.container{
+
+.container {
     width: 100%;
     background-color: blue;
 }
-.primeira{
+
+.primeira {
     display: inline-block;
     width: calc(100% - 300px);
     margin-right: -4px;
     margin-bottom: -4px;
     height: 300px;
     background-color: yellow;
-   
+
 }
-.segunda{
+
+.segunda {
     display: inline-block;
     margin-right: -4px;
     margin-bottom: -4px;
     width: 300px;
     height: 300px;
     background-color: red;
-   
+
 }
-.terceira{
-   margin-top: 10px;
-   margin-bottom: 10px;
+
+.terceira {
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: calc(100% - 200px);
     height: 100px;
     background-color: darkgoldenrod;
     margin: auto;
-   
+
 }
 
 /*Página transformação*/
- #image{
-    width: 350px;
+#image {
+    width: 150px;
 }
-.div2{
+.div1 {
     margin-top: 10px;
-   margin-bottom: 10px;
-   margin-left: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     width: 150px;
     height: 150px;
+    transform: scale(0.5, 1);
+}
+
+.div2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
 
 }
-.dvBtn{
+.div3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-45deg);
+
+}
+.div4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: skew(45deg);
+
+}
+.div5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: skew(-45deg);
+
+}
+.div6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    transform: skew(30deg, 15deg) scale(0.7, 1);
+
+}
+
+.dvBtn {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+/*Página Variáveis*/
+:root{
+    --var-h-color: red;
+    --var-p-color: red;
+    --squar-size: 20px
+   
+   }
+   .h{
+    
+    font-size: 30px;
+   }
