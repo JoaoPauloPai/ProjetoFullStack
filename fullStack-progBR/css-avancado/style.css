@@ -1,5 +1,3 @@
-
-
 footer {
     background-color: dimgray;
     height: 150px;
@@ -122,6 +120,7 @@ body {
 #image {
     width: 150px;
 }
+
 .div1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -140,6 +139,7 @@ body {
     transform: rotate(45deg);
 
 }
+
 .div3 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -149,6 +149,7 @@ body {
     transform: rotate(-45deg);
 
 }
+
 .div4 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -158,6 +159,7 @@ body {
     transform: skew(45deg);
 
 }
+
 .div5 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -167,6 +169,7 @@ body {
     transform: skew(-45deg);
 
 }
+
 .div6 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -183,13 +186,51 @@ body {
 }
 
 /*Página Variáveis*/
-:root{
-    --var-h-color: red;
-    --var-p-color: red;
-    --squar-size: 20px
-   
-   }
-   .h{
-    
-    font-size: 30px;
-   }
+:root {
+    --var-h-color: black;
+    --var-p-color: blue;
+    --background-p-collor: blueviolet;
+    --background-q-collor: black;
+    --background-g-collor: gray;
+    --squar-size-a: 100px;
+    --squar-size-b:200px;
+}
+
+.h {
+    background-color: bisque;
+    color: var(--var-h-color);
+
+}
+
+.pv1 {
+    background-color: var(--background-p-collor);
+    color: var(--var-h-color);
+    height: var(--squar-size);
+    width: var(--squar-size-a);
+}
+
+.pv2 {
+    background-color: var(--background-q-collor);
+    color: var(--var-h-color);
+    height:var(--squar-size-b);
+    width: var(--squar-size-b);
+}
+
+.pv3 {
+    background-color: var(--background-p-collor);
+    color: var(--var-p-color);
+}
+
+.pv4 {
+    background-color: var(--background-g-collor);
+    color: var(--var-p-color);
+}
+.pv5 {
+    background-color: var(--background-q-collor);
+    color: var(--var-h-color);
+}
+
+.pv6 {
+    background-color: var(--background-p-collor);
+    color: var(--var-p-color);
+}
