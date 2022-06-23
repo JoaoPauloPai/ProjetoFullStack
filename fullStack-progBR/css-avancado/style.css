@@ -66,7 +66,7 @@ p {
     background-color: green;
 }
 
-div {
+.div-sel {
     background-color: brown;
 }
 
@@ -75,7 +75,7 @@ div {
     margin: 0;
 }*/
 /*Página Funçao Calc*/
-body {
+.body-calc{
     margin: 0;
     padding: 0;
     background-color: cyan;
@@ -196,7 +196,7 @@ body {
     --squar-size-b:200px;
 }
 
-.h {
+.h-var{
     background-color: bisque;
     color: var(--var-h-color);
 
@@ -233,4 +233,79 @@ body {
 .pv6 {
     background-color: var(--background-p-collor);
     color: var(--var-p-color);
+}
+/*Página FlexBox*/
+.container-flex-row{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    color: white;
+}
+.container-flex-row-r{
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row-reverse;
+    height: 400px;
+    color: white;
+}
+.row-r1{
+    background-color: red;
+}
+.row-r2{
+    background-color: blue;
+}
+.row-r3{
+    background-color: green;
+}
+.row-r1r{
+    background-color: red;
+}
+.row-r2r{
+    background-color: blue;
+}
+.row-r3r{
+    background-color: green;
+}
+.container-flex-col{
+    background-color: beige;
+    display: flex;
+    flex-direction:column;
+    height: 400px;
+    color: white;
+}
+.container-flex-col-r{
+    background-color: beige;
+    display: flex;
+    flex-direction:column-reverse;
+    height: 400px;
+    color: white;
+}
+.col-r1{
+    background-color: green;
+}
+.col-r2{
+    background-color: blue;
+}
+.col-r3{
+    background-color:red;
+}
+.col-r1r{
+    background-color: green;
+}
+.col-r2r{
+    background-color: blue;
+}
+.col-r3r{
+    margin-top: 10px;
+    background-color:red;
+}
+.rect-r{
+    height: 100px;
+    width: 100px;
+
+}
+.rect-c{
+    height: 200px;
+    width: 200px;
 }
