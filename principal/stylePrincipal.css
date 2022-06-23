@@ -37,10 +37,15 @@ body{
     background: white;
     background-size: auto;
 }
-.bloc{
+.bloc-1{
   
     border-radius: 5px;
     border:1px solid red;
+}
+.bloc-2{
+    
+    border-radius: 5px;
+    border:1px solid yellowgreen;
 }
 .aulas{
     margin-left: 10px;
