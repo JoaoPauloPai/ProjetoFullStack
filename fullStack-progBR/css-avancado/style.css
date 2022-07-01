@@ -309,3 +309,18 @@ p {
     height: 200px;
     width: 200px;
 }
+/*Página FlexBox Wrap*/
+
+
+.container-wrap{
+    background-color: beige;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    height: 200px;
+    color: white;
+}
+.rect-wrap{
+    height: 500px;
+    width: 500px;
+}
