@@ -127,3 +127,18 @@ body{
 .dvBtn{
     margin-top: 20px;
 }
+/*Referente ao segundo projeto*/
+#titulo-projeto{
+    border: 1px solid ;
+    border-radius: 5px;
+    border: 	#4B0082;
+}
+#sg-projeto{
+    text-align: center;
+}
+#proj-segundo{
+    border-radius: 1%;
+    background-color: 	#E0FFFF;
+    padding: 1%;
+   
+}

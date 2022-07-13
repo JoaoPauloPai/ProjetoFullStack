@@ -311,7 +311,6 @@ p {
 }
 /*Página FlexBox Wrap*/
 
-
 .container-wrap{
     background-color: beige;
     display: flex;
@@ -323,4 +322,15 @@ p {
 .rect-wrap{
     height: 500px;
     width: 500px;
+}
+
+/*Página FlexBox flex-flow*/
+
+.container-flex-flow{
+    background-color: beige;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    height: 200px;
+    color: white;
 }
