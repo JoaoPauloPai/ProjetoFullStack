@@ -8,6 +8,14 @@
 
     }
 }
+@keyframes changecollor1{
+    10%{background-color: red}
+    25%{background-color:yellow; width: 400px;}
+    50%{background-color: blue}
+    100%{background-color:green; width: 200px;}
+
+    }
+
 #qdr{
     
     width: 750px;
@@ -15,8 +23,8 @@
   
 }
 #quadrado-1{
-    width: 200px;
-    height: 200px;
+    width: 20px;
+    height: 20px;
     animation-name: changecollor;
     animation-duration: 5s;
     align-items: center;
@@ -24,28 +32,37 @@
 }
 #quadrado-2{
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     animation-name: changecollor;
-    animation-duration: 3s;
+    animation-duration: 4s;
     align-items: center;
     border-style: solid;
 }
 #quadrado-3{
     align-items: center;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     animation-name: changecollor;
-    animation-duration: 1s;
+    animation-duration: 3s;
     align-items: center;
     border-style: solid;
 }
 #quadrado-4{
     align-items: center;
+    width: 150px;
+    height: 150px;
+    animation-name: changecollor;
+    animation-duration: 2s;
+    align-items: center;
+    border-style: solid;
+}
+#quadrado-5{
+    align-items: center;
     width: 200px;
     height: 200px;
-    animation-name: changecollor;
-    animation-duration: 4s;
+    animation-name: changecollor1;
+    animation-duration: 6s;
     align-items: center;
     border-style: solid;
 }
