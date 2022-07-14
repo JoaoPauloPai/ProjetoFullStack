@@ -2,3 +2,50 @@
     height: 50px;
     width: 50px;
 }
+@keyframes changecollor{
+    from{background-color: red;}
+    to{background-color: blue;
+
+    }
+}
+#qdr{
+    
+    width: 750px;
+    height: 900px;
+  
+}
+#quadrado-1{
+    width: 200px;
+    height: 200px;
+    animation-name: changecollor;
+    animation-duration: 5s;
+    align-items: center;
+    border-style: solid;
+}
+#quadrado-2{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    animation-name: changecollor;
+    animation-duration: 3s;
+    align-items: center;
+    border-style: solid;
+}
+#quadrado-3{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    animation-name: changecollor;
+    animation-duration: 1s;
+    align-items: center;
+    border-style: solid;
+}
+#quadrado-4{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    animation-name: changecollor;
+    animation-duration: 4s;
+    align-items: center;
+    border-style: solid;
+}
