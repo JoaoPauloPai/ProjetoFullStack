@@ -28,6 +28,7 @@ function clicarBotao1() {
 
 function clicarBotao2() {
 
+
 }
 
 function redirecionar1() {
